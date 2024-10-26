@@ -6,9 +6,15 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
+<VBox xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.example.appfaztudo.ImcView"
-            prefHeight="400.0" prefWidth="600.0">
-
-</AnchorPane>
+            fx:controller="com.example.appfaztudo.IMCController"
+            prefHeight="600.0" prefWidth="600.0">
+        <Label>Calculo de imc</Label>
+        <Label>informe seu peso</Label>
+        <TextField fx:id="textPeso"/>
+        <Label>informe sua altura</Label>
+        <TextField fx:id="textAltura"/>
+        <Button>Calcular IMC</Button>
+        <Label fx:id="labelResultado" />
+</VBox>
