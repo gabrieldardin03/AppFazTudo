@@ -18,8 +18,8 @@ public class HelloController {
     }
 
     @FXML
-    protected  void onDoacoesButtonClick(){
-
+    protected  void onDoacoesButtonClick() throws IOException {
+    new JanelaDoacoes();
     }
 
     @FXML
